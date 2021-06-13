@@ -1,0 +1,43 @@
+body{
+    background: rgb(212, 211, 211);
+    text-align:center;
+  }      
+  .grid{
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .grid div{
+    width: 20px;
+    height: 20px;
+    border:1px black solid;
+    box-sizing:border-box
+  }
+  .snake {
+    background: blueviolet;
+  }
+  .apple {
+    background: red;
+    border-radius: 20px;
+  }
+  .popup {
+    width: 100px;
+    height: 60px;
+    border-radius:20px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+  button{
+    background: grey;
+    border-radius:10px;
+    font-weight:bold;
+  }
+  .playAgain{
+    width: 500px;
+    font-weight:bold;
+  }
